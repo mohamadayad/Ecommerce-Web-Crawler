@@ -1,2 +1,2 @@
-# scrapper
-Algorithm to scrape data from websites
+web crawler for ecommerce website
+check documentation for detailed information
