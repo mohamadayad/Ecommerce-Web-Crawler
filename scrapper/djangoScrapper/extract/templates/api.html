@@ -1,0 +1,127 @@
+{% extends "base.html" %}
+
+{% block content %}
+<style type="text/css">
+    .marBottom16{margin-bottom: 16px}
+</style>
+    <!-- =-=-=-=-=-=-= Search Bar =-=-=-=-=-=-= -->
+    <div class="full-section search-section-listing">
+        <div class="search-area container">
+            <h3 class="search-title">Test a url.</h3>
+            <p class="search-tag-line"></p>
+            <form autocomplete="off" method="get" class="search-form clearfix" action="{% url 'api'%}" id="search-form">
+                {% csrf_token %}
+                <input type="url" placeholder="Enterk the url to process" class="search-term " autocomplete="off" name="url" value="{{request.GET.url}}" required>
+                <select name="action" id="action" class="form-control" style="height: 48px;">
+                    <!-- <option value="analyse" {% if request.GET.action == "analyse" %} selected {% endif %}>Analyse API</option>
+                    <option value="article" {% if request.GET.action == "article" %} selected {% endif %} >Article API</option>
+                    <option value="discussion" {% if request.GET.action == "discussion" %} selected {% endif %}>Discussion API</option>
+                    <option value="image" {% if request.GET.action == "image" %} selected {% endif %}>Image API</option> -->
+                    <option value="product" {% if request.GET.action == "product" %} selected {% endif %}>Product API</option>
+                    <!-- <option value="video" {% if request.GET.action == "video" %} selected {% endif %}>Video API</option> -->
+                </select>
+                <input type="submit" value="Extract Now" class="search-btn">
+            </form>
+        </div>
+    </div>
+    <!-- =-=-=-=-=-=-= Search Bar END =-=-=-=-=-=-= -->
+    <!-- =-=-=-=-=-=-= Main Area =-=-=-=-=-=-= -->
+    <div class="main-content-area">
+        <!-- =-=-=-=-=-=-= Page Breadcrumb =-=-=-=-=-=-= -->
+        <section class="page-title">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-7 co-xs-12 text-left">
+                        <h1>Data Extracted</h1>
+                    </div>
+                    <!-- end col -->
+                    <div class="col-md-6 col-sm-5 co-xs-12 text-right">
+                        <div class="bread">
+                            <ol class="breadcrumb">
+                                <li><a href="{% url 'index' %}">Home</a></li>
+                                <li class="active">API </li>
+                            </ol>
+                        </div>
+                        <!-- end bread -->
+                    </div>
+                    <!-- end col -->
+                </div>
+                <!-- end row -->
+            </div>
+            <!-- end container -->
+        </section>
+        <!-- =-=-=-=-=-=-= Page Breadcrumb End =-=-=-=-=-=-= -->
+        <!-- =-=-=-=-=-=-= Latest Questions  =-=-=-=-=-=-= -->
+        <style type="text/css">
+            .histogramButton{display: none}
+            #productDescription p{display: block}
+            #productDescription img,#productDescription h1,#productDescription h2,#productDescription h3,#productDescription h4,#productDescription a,#productDescription h5,#productDescription .aplus{display: none}
+            .maxWidth600{max-width: 80%}
+        </style>
+        <section class="section-padding-80 white" id="questions">
+            <div class="container">
+                <!-- Row -->
+                <div class="row">
+                    <div class="col-md-9 col-sm-12">
+                        <div class="listing">
+                            <!-- Question Area Panel -->
+                            <div class="listing-area">
+                                <div class="col-md-6">
+                                    {{ images|safeseq|join:""}}
+                                </div>
+                                <div class="col-md-6">
+                                {% if name %}
+                                    <h4 class="marBottom16">Name: <strong>{{ name|striptags }}</strong></h4>
+                                {% else %}
+                                    <h4 class="marBottom16">Product Name Couldn't be Extracted</h4>
+                                {% endif %}
+                                {% if price %}
+                                    <h4>Price:<strong>{{ price|striptags }}</strong></h4>
+                                {% endif %}
+                                {% if review %}
+                                    <h4>Review:<strong>{{ review|safeseq|join:", "  }}</strong></h4>
+                                {% endif %}
+                                </div>
+
+
+                            </div>
+                            <!-- Question Area Panel End -->
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-12">
+                        <!-- sidebar -->
+                        <div class="side-bar">
+                            <!-- widget -->
+                            <div class="widget">
+                                <div class="recent-comments">
+                                    <h2>API We Provide</h2>
+                                    <hr class="widget-separator no-margin">
+                                    <ul>
+                                      <!--  <li><a href="{% url 'api'%}?csrfmiddlewaretoken={{csrf_token}}&url={{request.GET.url|urlencode:''}}&action=analyse">Analyse API</a></li>
+                                        <li><a href="{% url 'api'%}?csrfmiddlewaretoken={{csrf_token}}&url={{request.GET.url|urlencode:''}}&action=image">Image API</a></li>
+                                        <li><a href="{% url 'api'%}?csrfmiddlewaretoken={{csrf_token}}&url={{request.GET.url|urlencode:''}}&action=video">Video API</a></li> -->
+                                        <li><a href="{% url 'api'%}?csrfmiddlewaretoken={{csrf_token}}&url={{request.GET.url|urlencode:''}}&action=product">Product API</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- widget -->
+                        </div>
+                        <!-- sidebar end -->
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="col-md-9">
+
+                    {% if description %}
+                        <h4>Product Description:</h4>
+                        {{ description|striptags }}
+                    {% endif %}
+                    </div>
+                </div>
+                <!-- Row End -->
+            </div>
+            <!-- end container -->
+        </section>
+        <!-- =-=-=-=-=-=-= Latest Questions  End =-=-=-=-=-=-= -->
+    </div>
+    <!-- =-=-=-=-=-=-= Main Area End =-=-=-=-=-=-= -->
+{% endblock content %}

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="ScriptsBundle">
+    <title>WebCrawler</title>
+    <!-- =-=-=-=-=-=-= Favicons Icon =-=-=-=-=-=-= -->
+    <link rel="icon" href="{% static 'images/favicon.ico' %}" type="image/x-icon" />
+    <!-- =-=-=-=-=-=-= Mobile Specific =-=-=-=-=-=-= -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <!-- =-=-=-=-=-=-= Bootstrap CSS Style =-=-=-=-=-=-= -->
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <!-- =-=-=-=-=-=-= Template CSS Style =-=-=-=-=-=-= -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <!-- =-=-=-=-=-=-= Font Awesome =-=-=-=-=-=-= -->
+    <link rel="stylesheet" href="{% static 'css/font-awesome.css' %}">
+    <!-- =-=-=-=-=-=-= Et Line Fonts =-=-=-=-=-=-= -->
+    <link rel="stylesheet" href="{% static 'css/et-line-fonts.css' %}">
+    <!-- =-=-=-=-=-=-= Google Fonts =-=-=-=-=-=-= -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic|Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css">
+    <!-- =-=-=-=-=-=-= Owl carousel =-=-=-=-=-=-= -->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/owl.carousel.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/owl.style.css' %}">
+    <!-- =-=-=-=-=-=-= Highliter Css =-=-=-=-=-=-= -->
+    <link type="text/css" rel="stylesheet" href="{% static 'css/styles/shCoreDefault.css' %}">
+    <!-- =-=-=-=-=-=-= Css Animation =-=-=-=-=-=-= -->
+    <link type="text/css" rel="stylesheet" href="{% static 'css/animate.min.css' %}">
+    <!-- =-=-=-=-=-=-= Hover Dropdown =-=-=-=-=-=-= -->
+    <link type="text/css" rel="stylesheet" href="{% static 'css/bootstrap-dropdownhover.min.css' %}">
+    <!-- JavaScripts -->
+    <script src="{% static 'js/modernizr.js' %}"></script>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="http://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="http://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	<style>
+		#action{width: 14%;display: inline-block;padding: 12.5px;}
+	</style>
+</head>
+
+<body>
+    <!-- =-=-=-=-=-=-= PRELOADER =-=-=-=-=-=-= -->
+    <div class="preloader"><span class="preloader-gif"></span>
+    </div>
+    <!-- =-=-=-=-=-=-= HEADER =-=-=-=-=-=-= -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-4">
+                    <ul class="top-nav nav-left">
+                        <li><a href="{% url 'index'%}">Home</a></li>
+                        <li class="hidden-xs"><a href="{% url 'contact'%}">Contact Us</a></li>
+                    </ul>
+                </div>
+                <!-- <div class="col-lg-8 col-md-8 col-sm-6 col-xs-8">
+                    <ul class="top-nav nav-right">
+                        <li><a href="login.html"><i class="fa fa-lock" aria-hidden="true"></i>Login</a>
+                        </li>
+                        <li><a href="register.html"><i class="fa fa-user-plus" aria-hidden="true"></i>Signup</a>
+                        </li>
+                    </ul>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <!-- =-=-=-=-=-=-= HEADER Navigation =-=-=-=-=-=-= -->
+    <div class="navbar navbar-default">
+        <div class="container">
+            <!-- header -->
+            <div class="navbar-header">
+                <button data-target=".navbar-collapse" data-toggle="collapse" class="navbar-toggle" type="button"> <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- logo -->
+                <a href="{% url 'index'%}" class="navbar-brand">
+                    <img class="img-responsive" alt="" src="{% static 'images/logo.png' %}">
+                </a>
+                <!-- header end -->
+            </div>
+            <!-- navigation menu -->
+            <div class="navbar-collapse collapse">
+                <!-- right bar -->
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden-sm"><a href="{% url 'howitworks'%}">How  It Works</a></li>
+                    <li><a href="{% url 'aboutus'%}">About Us</a></li>
+                    <li>
+                        <div class="btn-nav"><a href="{% url 'index'%}" class="btn btn-primary btn-small navbar-btn">Try Now</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!-- navigation menu end -->
+            <!--/.navbar-collapse -->
+        </div>
+    </div>
+    <!-- HEADER Navigation End -->
+    {% block content %}{% endblock %}
+    <section id="social-media" class="container-fluid">
+        <div class="block no-padding">
+            <div class="row">
+                <div class="social-bar">
+                    <ul>
+                        <li class="social1">
+                            <a title="" href="#">
+                                <img alt="" src="{% static 'images/facebook.png' %}"> <span>Join Us On<strong>FACEBOOK</strong></span>
+                            </a>
+                        </li>
+                        <li class="social2">
+                            <a title="" href="#">
+                                <img alt="" src="{% static 'images/twitter.png' %}"> <span>Join Us On<strong>TWIITER</strong></span>
+                            </a>
+                        </li>
+                        <li class="social3">
+                            <a title="" href="#">
+                                <img alt="" src="{% static 'images/google-plus.png' %}"> <span>Join Us On<strong>GOOGLE PLUS</strong></span>
+                            </a>
+                        </li>
+                        <li class="social4">
+                            <a title="" href="#">
+                                <img alt="" src="{% static 'images/linkedin.png' %}"> <span>Join Us On<strong>LINKED IN</strong></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =-=-=-=-=-=-= FOOTER =-=-=-=-=-=-= -->
+    <footer class="footer-area">
+        <!--Footer Upper-->
+        <div class="footer-content">
+            <div class="container">
+                <div class="row clearfix">
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="footer-content text-center no-padding margin-bottom-40">
+                            <div class="logo-footer">
+                                <a href="{% url 'index'%}"><img id="logo-footer" class="center-block" src="{% static 'images/logo-1.png' %}" alt=""></a>
+                            </div>
+                            <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus illo vel dolorum soluta consectetur doloribus sit. Delectus non tenetur odit dicta vitae debitis suscipit doloribus. Lorem ipsum dolor sit amet, illo vel.</p>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Footer Bottom-->
+        <div class="footer-copyright">
+            <div class="auto-container clearfix">
+                <!--Copyright-->
+                <div class="copyright text-center">Copyright 2017 &copy; Designed and Developed By <a title="" href="#">Mohamad Ayad</a> All Rights Reserved</div>
+            </div>
+        </div>
+    </footer>
+    <!-- =-=-=-=-=-=-= JQUERY =-=-=-=-=-=-= -->
+    <script src="{% static 'js/jquery.min.js' %}"></script>
+    <!-- Bootstrap Core Css  -->
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <!-- Jquery Smooth Scroll  -->
+    <script src="{% static 'js/jquery.smoothscroll.js' %}"></script>
+    <!-- Jquery Easing -->
+    <script type="text/javascript" src="{% static 'js/easing.js' %}"></script>
+    <!-- Jquery Counter -->
+    <script src="{% static 'js/jquery.countTo.js' %}"></script>
+    <!-- Jquery Waypoints -->
+    <script src="{% static 'js/jquery.waypoints.js' %}"></script>
+    <!-- Jquery Appear Plugin -->
+    <script src="{% static 'js/jquery.appear.min.js' %}"></script>
+    <!-- Carousel Slider  -->
+    <script src="{% static 'js/carousel.min.js' %}"></script>
+    <!-- Jquery Parallex -->
+    <script src="{% static 'js/jquery.stellar.min.js' %}"></script>
+    <!--Style Switcher -->
+    <script src="{% static 'js/bootstrap-dropdownhover.min.js' %}"></script>
+    <!-- Include jQuery Syntax Highlighter -->
+    <script type="text/javascript" src="{% static 'scripts/shCore.js' %}"></script>
+    <script type="text/javascript" src="{% static 'scripts/shBrushPhp.js' %}"></script>
+    <!-- Template Core JS -->
+    <script src="{% static 'js/custom.js' %}"></script>
+
+
+</body>
+
+</html>

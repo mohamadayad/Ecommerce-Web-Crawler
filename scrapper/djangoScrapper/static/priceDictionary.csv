@@ -1,0 +1,191 @@
+cssSelectorPrice,cssSelectorName,cssSelectorImage
+#price-min
+#article-price-cart
+#text-price
+#product > div.right-container._right-container > div > div > div.price._product-price > span
+span.pdp-final-price
+#product-price-87690
+#produtc_vpe
+span.actual-price
+#block2 > div.Preis > div.Preis_Koerper > dl > dt.Preis
+div.bose-price__price.bose-price__price--productPage
+p.special-price > span.price
+span#priceblock_saleprice
+#mm-saleDscPrc
+#prcIsum
+#main > div > div.c-product-order.inview.inview-top.inview-bottom.inview-completely > div.product-order__outer-wrapper > div > form > div.c-product-price > div.product-price__current
+#product-price-6509
+#j-product-detail-bd > div.detail-main > div > div.product-price > div > div.p-price-detail.util-clearfix > div > div > span.p-symbol
+#j-product-detail-bd > div.store-detail-main > div > div.product-price > div > div.p-price-detail.util-clearfix > div > div
+#priceblock_ourprice
+#productDetail > div.boxProductDetail.print-area > div.product-informations > dl.productPrice > dd.yourPrice.standard
+body > div.page-wrap > section > div.content-main--inner > div.content--wrapper > div > div.product--detail-upper.block-group > div.product--buybox.block.is--wide > div > div.product--price.price--default > span
+#product_price
+#productPrice
+#currentlySelectedItemPrice > strong
+#f0_price
+#offerPrice_1137507
+#productDetails-c-info > div.prices.price-wrapper.clearfix > span
+#preisdisplay
+#product-information > div.product-price > div > span
+#app > div > main > div > div > div.product-page-general-state > section.product > div.price > span.current
+#product-info > div.info-price > div.price > span
+#details_cart > div > span.dp-block.fs-200.ta-right.color-green.lh-normal.pt-8.pr-8 > font > font
+#details_cart > div > span.dp-block.fs-200.ta-right.color-green.lh-normal.pt-8.pr-8
+#main-frame > div.products-content > div.products-info > div.wd-65.left > div.products-list
+#our_price_display
+#productinfoprice > p.productprice > strong
+#product-price-from > span.item-price
+body > div.page-wrap > section > div > div.content--wrapper > div.content.product--details > div.product--detail-upper.block-group > div.product--buybox.block > div > div.product--price.price--default.price--discount > span.price--content.content--default
+#new_price
+#cart_quantity > div.prod_left.hReview-aggregate > div.prod_price
+body > div:nth-of-type(5) > div:nth-of-type(9) > div > div > div > z-grid > z-grid-item:nth-of-type(2) > div > div > div.z-vegas-pdp_brandprice > div.z-vegas-pdp_brandprice_price > div > div.zvui_price_info.discounted
+#productDetail > tbody > tr.mainProduct > td:nth-of-type(3) > div > div > div.top > div.price > div.new
+#priceblock-wrapper-wrapper > div.price-block.priceblock-large > div.pucks-and-price.row > div.col-xs-7 > div.price-column > div.item-price
+#math-table
+#priceInfo > div > span
+#product-price
+#product-price-2117 > span
+#pricing-container > div.price.notOnSale > span.monetary-price-value
+#landingpage-price > div > div > ul > li.price-current
+#product-info > div.price-block > div.price-container.price-container-js > div > span.product-content-info-current-price.current-price.current-price-js.product-price-js
+#product-info > div.price-block > div.price-container.price-container-js > div
+#j-product-detail-bd > div.store-detail-main > div > div.product-price > div > div.p-price-detail.util-clearfix > div
+#j-sku-discount-price
+#unit_price
+#product-price > div > span.current-price
+#product-price > div
+#price1
+#wrapper > div.product_box > div.gallery-right > ul.Market > li.tide_price > div.transform
+#PPRitemPrice
+#product-price-14442
+#products_price_top
+#product-price
+#product-S79168 > div.innercard > div.product-info-wrapper.stack.track > div.clearfix.product-info-price-rating > div.price
+#product_price_3529 > span.cppl-price3
+#bestellform > div.exchangepart > div.orderForm > fieldset > div.preisinformationen > p.preis
+#pdpMain > div > section.product-detail.pdp > div > section > div.tablet-left > div.product-title.null > div > span
+#bloc-infos > div.bloc-price > div.price > span.product-price
+#product-price-476
+#price > div
+#salePrice_369042
+#ta_pt_117513 > div.pricetable > div.pricetable_preis_rahmen > div.pricetable_preis.weinrot
+#attributeswatches-price-container-21783
+#product_addtocart_form > div.product-shop > div > div.col-lg-6.col-md-6.col-sm-10.col-xs-12 > div.row.m-t-product.product-name-price.m-b-30 > div.col-lg-4.col-md-4.col-sm-4.col-xs-12
+#product_addtocart_form > div.product-shop > div.product-right > div.product-buy-container > div > div.price-box
+#product-infos > div > div.pcartbox > p.product-price
+#price_break_1 > span > span.inc > span.EUR
+#price-min
+#node-7960 > div.product-header.clearfix > div.product-overview > div.product-price
+#product_addtocart_form > div.product-options-bottom > div.price-box > p > span.full-product-price
+body > div.page-wrap > section > div > div.content--wrapper > div > div.product--detail-upper.block-group > div.product--buybox.block > div > div.product--price.price--default > span
+body > main > section > section.fnb_pdp-presentation.container.fnb_event_listener.fnb_pdp-presentation_parfums > div > div.fnb_pdp-content.fnb_col-wd4.fnb_col-wt5.fnb_col-wd-offset-1 > div.fnb_pdp-buy > div.clearfix > p
+#product-content > div.product-buy-now > div > div > div
+#price
+#current_variants_price > span
+#our_price_display
+#price > spam
+#ng-product-detail-content > div.pull-right.clearfix > div > div.to-center > strong
+#PRICE > div.nbp > span > span
+#product_addtocart_form > div.price-box
+#container_25001 > div.bw-row.bw-pdp-main.bw-pdp-main--wrapper > div.bw-pdp-main.bw-pdp-main--right 
+#product-price-7126_clone
+#articleContentBlock > div.article__articlePresentation > div > div.articlePresentation__infoBlock > div > div.articleInformation__prices > div > div.articlePrices__price > ins
+#colorChange_0000078719_minprice
+#standard > div > div.description > div.price
+body > div.page-wrap > section > div > div.content--wrapper > div.content.product--details > div.product--detail-upper.block-group > div.product--buybox.block > div > div.detail--container > div.detail--container--right > div.product--price.price--default > span
+#buyboxData > div.article_details_bottom > div.article_details_price > strong
+#shop-gallery > ul.clearfix > li.product-overview-details.showProductBadgeRatings > div.product-information > p.price > span
+#productPageMainPrice
+#bodyContent > form > div > div.productsInfo > div > div.productsInfoRight > div.productsInfoCart > div > div.productsInfoPrice > div.productsPriceWrap
+#product-price-1544
+#product-price-11298produktansicht > span
+#rm_detailbox_top_right > div.article_details_bottom > div.article_details_price
+#product-content > strong > span > span
+#priceReg
+#content > div > div.cont-inner > div.product-container > div.product-section > div.product-price-wrapper > div > div > div
+#product-detail > div.cf > div.product_details.pull-right > div.product_prices > span
+#content > div.row.product-detail > div.product-sidebar > div.product-sidebar-slice > div > div.product-price
+#detail-upper-data > p.price.price-content.price-default.sw5-plugin.mls
+#product-price-22222
+#product_info > div.pi_cta > div.cta_info > span.price
+#product-offer > div.product-info.col-sm-7 > div.product-offer > div.row > div.col-xs-7 > div > strong
+#product_configure_form > div.product-price.row > div.price-wrap.col-xs-5.col-md-5 > span
+#ccolumn > div.productWrapper > div > div > div.body.pro-new > div.itemlist > div > div.body > div.priceinfos.priceinfos-discount > div.price
+#product-price-1905
+#our_price_display
+#product-cta-wrapper > div.product-price-wrapper.mt > div > div > span
+#price_dynamic_0_45285
+#Article_45285 > div.right-side > div.single-price
+#buyProduct > div.productMainContainerTable > div > div.productShort > div.price > span
+#product_addtocart_form > div.product-shop.col-md-7 > div.price-box
+#cart-box > div > p.headline-2.price-head.price
+#product_info_detail_view_wrapper > div.product_info_detail_view > div.product_info_detail > div.product_detail_price_box > div.product_detail_price
+body > div.container.product > div.row.praeparat > div.col-md-5 > div.well > p.preis
+#product_info_detail_view_wrapper > div.product_info_detail_view > div.product_info_detail > div.product_detail_price_box > div.product_detail_price
+#product_details > div.pd_content > div.pd_summarybox > div.pd_price > span
+#product-price-302
+#product-price-4772 > span.price
+#artikelPreis
+#productNEWprice_o > b
+#attributes-calc-price > div.current-price-container > span
+#main > div > div.shop-container > div.shop-main > div > div.shop-product-detail-top > div.shop-product-detail > div > div.product-price
+#optionen1_ > div > span
+#content > section.details > section.features > div.priceWrapper > div > div
+#wrapper > div.container > div > div.product > div.product__data > div.product__data__field.product__data__field--price > div.product__data__field__content.product__data__field__content--price > span.productVariantDetails.productVariant_382509
+#col-static > div > div > div > form > table
+#m_product_facts_price > div
+#CartBox > div.price > div.grossprice
+#Article_1588 > div > div.offerDetailsBox.attributeBox.margin-top-15 > div.priceContainer.margin-top-15 > span
+#productPrice1979 > h3 > div > span
+#price2904
+#buybox > div.article_details_bottom > div.article_details_price2 > strong
+#dr-pd-price-actual
+#central_content > div.product_group > div.product_item > div.product_right > div.product_price
+#article-form > div.pdp-price > span.pdp-price-default
+#gm_attr_calc_price > span
+#product-price-917
+#buybox > strong > p
+#ProductDetailsContainer > div.wrapperSprite2.spclCntBgInner > div.pdsSlot1 > div.orderProduct > div.priceArea > div.price > span
+#Price > span
+#product-price-8795 > span
+#contentContainer > div.art-article.detailsView > div.art-priceColumn.boxSizing.detailsView.min480 > div.priceContainer > div.art-preis > span
+#product-price-114 > span
+#buy_form > div.s360-buyform-tablet-wrapper > div.article-wk-box > div > div.price.discount-price
+#article_details > div.article_details_bottom > div > strong
+#section--product-details > div.main > div.product-details__header > div > div.product-price
+#product-details > div.price-sidebar > div.price-details > div.price.big.length-5
+#artikelDetailHolder > div > div.infoCol > div.preisBox
+#AddToCart > div.price-details.price-block.line.well > div.clearfix > div.pull-right.without-discount-block > span.product-price.current.text-success > span
+#block2 > div.Preis > div.Preis_Koerper > dl > dt.Preis
+#top > div.content > div > main > div.prod-main > div > div.prod-info > div.prod-info__box > div.prod-info__price-container > div
+#npprice
+#epoq_searchresult > div.product_detail.pds_info > div.border.product_detail_wrapper > div.right_column.pdw_rc > div.product_price_default.mtb-18 > div > div.rerenderFontSvg.p_price_svg > svg > g
+#eingabe > div.catalog.productdetail.mt-m > div > div.tbody > div.price.acenter_more600 > div > div.brutto > div.value
+#label_input_29534
+#product-price-24083
+body > div.calendar-page > div.calendar-page-content-wrap > div.calendar-page-sidebar > form > div.calendar-page-total > span.calendar-page-total-price
+#articleShowcase > form > div.articleOrderDetails > ul.articleDetails > li.priceOffer > span > strong
+#priceUpdate > p.price
+#basketButton > div
+#main > div.pds-teaser-container > div.pds-teaser > form > div > span.pds-teaser__order__box__pricebubble > span
+#main > div > div.c-product-order > div.product-order__outer-wrapper > div > form > div.c-product-price > div.product-price__current
+#product-price-454_clone
+#product-information > div.product-price > div > span
+#detailCartButton > div.row > div > div > div.col-xs-8.lg-price.pull-right > strong > p
+#articledetail > div > div.c-2.product-detail-functions > div > span
+#orderForm > div.price > p
+#cart_quantity > div > div > div > div.bicyclesCont > div.detailsCont.fltrgt > div.detailsRgt.fltrgt > div > div.p_price
+#OrderItemAddForm > div.prod-detail-info.block > div.prod-detail-left > div.prod-detail-price
+#adsPriceInfo
+#podAddToCart > div.addToCartContainer > div.price
+#jsAllDetails > p > span.spv__product-price--reduced
+#top > div.ncMain.productMainView > div.row.storeWindow > div > div > div.small-12.large-3.columns.float-right > div
+#price-min
+#box_productdata > div.jsvariant.relative > div.price > span.value
+#price_dv
+#box_productdata > div.jsvariant.relative > div.price
+#checkout > div.priceWrap
+#product_addtocart_form > div.product-shop > div.price-info
+#epoq_searchresult > div.product_detail.pds_info > div.border.product_detail_wrapper > div.right_column.pdw_rc > div.product_price_default.mtb-18 > div > div.rerenderFontSvg.p_price_svg
+#cart_quantity > div > div > div > div.bicyclesCont > div.detailsCont.fltrgt > div.detailsRgt.fltrgt > div > div.p_price > span

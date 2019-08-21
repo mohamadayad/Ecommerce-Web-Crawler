@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+<!-- =-=-=-=-=-=-= HOME =-=-=-=-=-=-= -->
+<div class="full-section search-section">
+    <div class="search-area container">
+        <h3 class="search-title">Test a url.</h3>
+        <p class="search-tag-line"></p>
+        <form autocomplete="off" method="get" class="search-form clearfix" action="{% url 'api' %}" id="search-form">
+        {% csrf_token %}
+            <input type="url" placeholder="Enterk the url to process" class="search-term " autocomplete="off" name="url" value="http://" required>
+            <select name="action" id="action" class="form-control" style="height: 48px;">
+                {# <option value="analyse">Analyse API</option>
+                <!--<option value="article">Article API</option>
+                <option value="discussion">Discussion API</option>
+                <option value="image">Image API</option> #}
+                <option value="product">Product API</option>
+                {# <option value="video">Video API</option> #}-->
+            </select>
+            <input type="submit" value="Extract Now" class="search-btn">
+        </form>
+    </div>
+</div>
+<!-- =-=-=-=-=-=-= HOME END =-=-=-=-=-=-= -->
+{% endblock content %}

@@ -1,0 +1,16 @@
+#itemName
+#product_addtocart_form > div.product-shop > div.product-name
+#mm-t01-product-header > div.mm-t01-header-element.mm-t01-product-description > a > span
+#center_column > div > div.primary_block.row > div.pb-center-column.col-xs-12.col-sm-4 > h1
+#product-content > h1
+#cam-details-left > h1 
+#productPageMainInfoTitel
+#content > h2
+#center_column > div > div > div.pb-center-column.col-xs-12.col-sm-4 > h1
+#Article_45285 > div.right-side > div.single-name
+#prod_dec > h2
+#contentContainer > div.art-article.detailsView > div.art-name.detailsView > a
+#product-details > div.details > h1
+#epoq_searchresult > div.product_detail.pds_info > div.border.product_detail_wrapper > div.left_column.pdw_lc > div.product_headline > span
+#av_articleheader
+#form-inwarenkob > div > div.box.grid8.mainbanner-inner-height.r768-1-12.r768-margin25 > div > p.headline30.r480-hide > strong

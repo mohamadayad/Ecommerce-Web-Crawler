@@ -1,0 +1,16 @@
+#summaryStars
+#have_reviews > div.widget.prod_write_review > div.average_rating.ctr-info.ctr-track-a > p
+#have_reviews > div.widget.prod_write_review > div.average_rating.ctr-info.ctr-track-a
+#test-reviews > div.row.reviewTopFilter
+#cr_js_topReviews > div.cr_reviewHeadline > p
+#id7 > div > div
+#ab-kundenbewertungen > div > div.rating-summary.clearer.p-r > div.left.rating-statistics.review.roboto-con
+#Rating > div.info-right > div.header > div.right > div.summary.highlight
+#form_add_to_cart > div.product-rating > div.product-rating-text
+body > div.lr-page.lr-page-de > div > div.lr-page-content-wrapper > div.lr-page-content.lr-page-content-module-prod.lr-page-content-module-prod-main > div.lr-grid-row.lr-grid-row-section > div.lr-grid-column.lr-grid-column-phat > div.lr-prod-ratings > div.lr-prod-ratingsteaser.lr-page-content-top-spacer-35px > div > div.lr-prod-ratingsteaser-overview-distribution > table > tbody
+#review > span > span
+#ratingInfo > div.statisticsRating > div.col-lg-9.col-md-9.col-xs-9
+#head > div.rating_total > div.rating_total_numbers
+#header > div.black-bar > div.overall_rating.box > div > div.rating_popup
+#trustedshops_product_rating_stars > div > div.ts-reviewSummary-averageRating
+#info_element_2

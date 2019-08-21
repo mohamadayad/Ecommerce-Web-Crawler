@@ -1,0 +1,11 @@
+cssSelectorPrice,cssSelectorName,cssSelectorImage
+span.pdp-final-price,#container ._1vC4OE._37U4_g,#container ._1-baVo img
+span.actual-price,#productname,.mainimage
+p.price,.productname,img.main
+div.bose-price__price.bose-price__price--productPage,span.product-name,img.main-image
+p.special-price > span.price,p.product-name,img.mainImg
+span#priceblock_saleprice,span#productTitle,#imgTagWrapperId img
+body > section.content > div > div > div.column.column--produkt > div.produkt--bild--konfiguration > div.produkt--konfiguration > form > p,body > section.content > div > div > div.column.column--produkt > div.produkt--bild--konfiguration > div.produkt--konfiguration > h1,body > section.content > div > div > div.column.column--produkt > div.produkt--bild--konfiguration > div.produkt--bild
+body > div.page-wrap > section > div.content-main--inner > div.content--wrapper > div > div.product--detail-upper.block-group > div.product--buybox.block.is--wide > div > div.product--price.price--default > span
+#product_price
+#productPrice
